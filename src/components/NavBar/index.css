@@ -1,0 +1,50 @@
+.navbar-container {
+  background-color: #9796f0;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.emoji-logo {
+  width: 20%;
+}
+
+.emoji-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.navbar-listitem {
+  list-style-type: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.hide-score{
+  display: none;
+}
